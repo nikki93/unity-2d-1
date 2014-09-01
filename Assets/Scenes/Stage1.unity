@@ -581,6 +581,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1678731062}
   - 212: {fileID: 1678731064}
+  - 61: {fileID: 1678731066}
   - 50: {fileID: 1678731063}
   - 114: {fileID: 1678731065}
   m_Layer: 0
@@ -655,6 +656,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: {x: 10, y: 10}
   direction: {x: -1, y: 0}
+--- !u!61 &1678731066
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100000, guid: 7509961654535419aad4071fcd6c3598,
+    type: 2}
+  m_PrefabInternal: {fileID: 257966106}
+  m_GameObject: {fileID: 1678731061}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: 4, y: 4}
+  m_Center: {x: 0, y: 0}
 --- !u!1 &1934711668
 GameObject:
   m_ObjectHideFlags: 0
